@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="MainForm">
+  <grid id="27dc6" binding="mainPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="92c96" binding="jpanel1" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="0">
+        <constraints border-constraint="North"/>
+        <properties>
+          <name value=""/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="85769" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <text value="Фамилия"/>
+            </properties>
+          </component>
+          <component id="19a11" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+            <constraints/>
+            <properties>
+              <preferredSize width="100" height="30"/>
+            </properties>
+          </component>
+          <component id="a26b7" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <text value="Имя"/>
+            </properties>
+          </component>
+          <component id="1b78f" class="javax.swing.JTextField" binding="textField2" default-binding="true">
+            <constraints/>
+            <properties>
+              <preferredSize width="100" height="30"/>
+            </properties>
+          </component>
+          <component id="fe43e" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <text value="Отчество"/>
+            </properties>
+          </component>
+          <component id="adfc2" class="javax.swing.JTextField" binding="textField3" default-binding="true">
+            <constraints/>
+            <properties>
+              <preferredSize width="100" height="30"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="b6d4" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints border-constraint="South"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="1d55a" class="javax.swing.JButton" binding="button1" default-binding="true">
+            <constraints/>
+            <properties>
+              <text value="Collapse"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="eec6" binding="jpanel2" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="0">
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="21ac4" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <horizontalAlignment value="2"/>
+              <text value="Фамилия Имя Отчество"/>
+              <verticalAlignment value="0"/>
+            </properties>
+          </component>
+          <component id="949e8" class="javax.swing.JTextField" binding="textField4" default-binding="true">
+            <constraints/>
+            <properties>
+              <horizontalAlignment value="2"/>
+              <preferredSize width="300" height="30"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
